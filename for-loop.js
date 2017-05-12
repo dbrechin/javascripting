@@ -1,3 +1,6 @@
-for (var r = 0; r < 10; r++){
-  console.log(r)
+var total = 0
+var limit = 10
+
+for (var i = 0; i < limit; i++; total += i;){
+  console.log(total)
 }
